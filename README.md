@@ -1,7 +1,8 @@
-# docker-ssl-proxy
+# docker-ssl-websocket-proxy
 
 Builds a basic nginx server that proxies incoming SSL calls to a target host
 (usually another Docker container).
+Included support of secure websocket connection (wss)
 
 ## Environment variables
 
@@ -34,4 +35,4 @@ The certificate generator will check on existing ``key.pem`` and abort.
 ## Docker Hub Image
 
 You can get the publicly available docker image at the following location:
-[docker-ssl-proxy](https://registry.hub.docker.com/u/fsouza/docker-ssl-proxy/).
+[docker-ssl-websocket-proxy](https://hub.docker.com/r/sergiuchuckmisha/docker-ssl-websocket-proxy).
