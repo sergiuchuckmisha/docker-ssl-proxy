@@ -58,3 +58,7 @@ docker run -d --restart=on-failure:5 \
 
 You can get the publicly available docker image at the following location:
 [docker-ssl-websocket-proxy](https://hub.docker.com/r/sergiuchuckmisha/docker-ssl-websocket-proxy).
+
+## GitHub repository
+
+[docker-ssl-websocket-proxy](https://hub.docker.com/r/sergiuchuckmisha/docker-ssl-websocket-proxy).
