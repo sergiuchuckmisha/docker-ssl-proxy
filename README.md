@@ -44,14 +44,14 @@ docker stop dummy
 
 ```bash
 docker run -d --restart=on-failure:5 \
-  --name docker-ssl-proxy \
+  --name docker-ssl-websocket-proxy \
   --link 'dockerhost' \
   -p 8443:8443 \
   -e 'TARGET_PORT=8000' \
   -e 'TARGET_HOST=dockerhost' \
   -e 'SSL_PORT=8443' \
   -v certs_volume:/etc/nginx/certs \
-  sergiuchuckmisha/docker-ssl-sergiuchuckmisha-proxy:latest
+  sergiuchuckmisha/docker-ssl-websocket-proxy:latest
 ```
 
 ## Docker Hub Image
